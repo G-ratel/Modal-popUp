@@ -1,0 +1,56 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.coron {
+    text-align: center;
+    height: 400px;
+    margin-top: 200px;
+}
+#btn {
+	margin: 0 auto;
+    background-color: rgb(13, 13, 112);
+    font-family: Cambria;
+    font-size: 1.4rem;
+    color: white;
+	font-weight: 400;
+	text-align: center;
+	width: 20rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  padding-top: 400px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4); 
+}
+.modal-cont {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #888;
+  width: 40%;
+}
+ul li {
+    padding-top: 7px;
+    font-weight: 400;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
